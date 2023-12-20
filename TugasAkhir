@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="script.js"></script>
+   
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>xplore</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+                <a class="navbar-brand" href="#"><img src="Asset/logo adis.png" alt="brand" width="30" height="30" class="d-inline-block align-text-top mr-2" id="navbrand">xploreMalang</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#destinasi-wisata">Destinasi Wisata <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#kuliner">Kuliner</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#event">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    
+        <div class="hero-image">
+          <div class="hero-text">
+
+            <h1>REKOMENDASI WISATA & KULINER MALANG</h1>
+            <p>Temukan keseruan wisata dan kenikmatan kuliner Malang melalui <span>XploreMalang!</span></p>
+          </div>
+        </div>
+      
+        
+        <!-- MAIN -->
+        <div class="PageTwo" style="height: auto" id="destinasi-wisata">
+            <div class="wisata">
+            <h3>DESTINASI WISATA HITS DI MALANG</h3>
+          </div>
+          <div class="gulirDestinasiWisata">
+          <div class="container-fluid">
+            <div class="row mb-4">
+              <div class="col-xl-3 col-md-4 col-sm-12 gambarDestinasiWisata ">
+                <a href="halaman-selanjutnya.html">
+                  <img src="https://i.pinimg.com/564x/dd/a5/69/dda56915c86910f4d1705c02cb9a4b18.jpg" class="rounded float-start mb-2" alt="destinasi wisata bromo" height="200px" width="300px">
+                </a>
+              </div>
+              <div class="col-xl-8 col-md-6 col-sm-12 border informasiDestinasiWisata">
+                <p class="judul mt-2">Gunung Bromo</p>
+                <p class="desc">Gunung Bromo adalah gunung berapi aktif yang terletak di Jawa Timur dan terkenal dengan kawahnya yang indah dan pemandangan sunrise yang spektakuler. Jarak yang ditempuh ke Bromo sekitar 53 km dari pusat kota dengan waktu tempuh kurang lebih 1,5 - 2 jam. Rute tercepat yang dapat Anda lalui yaitu melalui jalur Tumpang - Ngadas.</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+                <a class="peta" href="https://maps.app.goo.gl/qPi4F29LTgd6dM3i7" target="_blank">Kabupaten Malang</a>
+              </div>
+            </div>
+      
+          </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata ">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://i.pinimg.com/564x/9e/82/b8/9e82b86ec9f4c4a490ba45d7a2c7e7e6.jpg" class="rounded float-start mb-2" alt="destinasi wisata pantai balekambang" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Pantai Balekambang</p>
+              <p class="desc"> Pantai yang berada di sebelah selatan Kabupaten Malang menawarkan pesona meindahan alam.  Pantai Balekambang menyediakan beberapa fasilitas, seperti camping ground, bungalow sederhana, mushola, pendopo, dan rumah makan.  Jarak tempuh Pantai Balekambang dari Kabupaten Malang sekitar 44,6 kilometer dengan waktu tempuh kurang lebih 1,5 jam.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/fteZZSCR1wMWwFQH9" target="_blank">Kabupaten Malang</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2023/02/27/209016a4-f45e-4122-9f1a-7c6b6c19c252-1677482245146-185cfbee971248cc1304500879f7c3c3.jpg" class="rounded float-start mb-2" alt="destinasi wisata BNS" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Batu Night Spektakuler</p>
+              <p class="desc">Batu Night Spectacular (BNS) adalah sebuah tempat wisata dengan gabungan konsep hiburan, olahraga, pusat perbelanjaan, dan permainan. Lokasi BNS terletak di pusat kota Batu Jawa Timur dan hanya membutuhkan waktu perjalanan sekitar 45 menit dari Malang untuk sampai ke BNS.  Ada puluhan wahana yang bisa kamu nikmati saat berkunjung ke BNS. </p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/xYSyVMFTiwQ7F8Wy7" target="_blank">Jl. Hayam Wuruk No.1, Oro-Oro Ombo, Kec. Batu, Kota Batu</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://i.pinimg.com/564x/3d/22/ee/3d22eee4c9750a4df5ad5a379a11702f.jpg" class="rounded float-start mb-2" alt="destinasi wisata eco green park" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Eco Green Park</p>
+              <p class="desc">Eco Green Park adalah taman rekreasi yang mengusung konsep ramah lingkungan dan edukatif. Menyajikan pengalaman interaktif, taman ini memadukan hiburan dengan pendidikan tentang keanekaragaman hayati dan konservasi lingkungan. Pengunjung dapat menikmati wahana seru sambil mendukung kesadaran akan pentingnya pelestarian alam.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/FS6FjXDxhN9jvGs78" target="_blank">Jl. Raya Oro-Oro Ombo, Temas, Kec. Batu, Kota Batu</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://i.pinimg.com/564x/3d/f3/7d/3df37dc410762c324331424f6b88b154.jpg" class="rounded float-start mb-2" alt="destinasi wisata kampung warna warni" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Kampung Warna Warni</p>
+              <p class="desc">Kampung warna-warni adalah kawasan dihiasi dengan warna-warni cerah pada bangunan-bangunannya. Tujuannya untuk menciptakan lingkungan yang ceria dan menarik perhatian sebagai daya tarik wisata atau proyek seni komunitas.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/tbbhenLS9aY9ZZGX9" target="_blank">Jl. Zaenal Zakse Jl. Ir. H. Juanda 6, Jodipan, Kec. Blimbing, Kota Malang</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://i.pinimg.com/564x/26/83/bb/2683bb32b8ac1089d1c30cb5c74b305c.jpg" class="rounded float-start mb-2" alt="destinasi wisata museum angkut" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Museum Angkut</p>
+              <p class="desc">Museum Angkut, terletak di Kota Batu, Jawa Timur, merupakan destinasi wisata unik yang menampilkan koleksi transportasi dari berbagai zaman. Museum ini memberikan pengalaman interaktif melalui replika kendaraan, pameran tematik, dan rekonstruksi suasana kota zaman dulu. Museum Angkut menjadi daya tarik bagi pengunjung yang ingin menjelajahi sejarah transportasi.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/Ljprkoiyg2mmD4ZLA" target="_blank">Jl. Terusan Sultan Agung No.2, Ngaglik, Kec. Batu, Kota Batu</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://salsawisata.com/wp-content/uploads/2022/05/kebun-teh-wonosari-malang.jpg" class="rounded float-start mb-2" alt="destinasi wisata kebun teh" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Kebun Teh Wonosari</p>
+              <p class="desc">Perkebunan Teh Wonoasri menawarkan sebuah hamparan hijau kebun teh dengan suasana sejuk dan damai. Selain sebagai pusat perkebunan teh, agrowisata Wonosari ini juga dilengkapi dengan beberapa fasilitas pendukung sebagai sarana rekreasi keluarga.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/9FrBpP9j2Eud7bwQ7" target="_blank">RT.04/RW.07, Bodean Putuk, Toyomarto, Kec. Singosari, Kabupaten Malang</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://i.pinimg.com/564x/cc/14/83/cc148389352f20678ace3c7fc02a6e65.jpg" class="rounded float-start mb-2" alt="destinasi wisata malang night paradise" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Malang Night Paradise</p>
+              <p class="desc">Malang Night Paradise memiliki segudang wahana bermain yang menarik dan tak kalah asyik dari taman bermain lainnya. Tempat ini bisa menjadi sarana edukasi karena memiliki banyak karya seni dan teknologi.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/Dks8mbnWmHsTUib79" target="_blank">Jl. Graha Kencana Raya Jl. Raya Karanglo No.66, Karanglo, Balearjosari, Kec. Blimbing, Kota Malang</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://www.jatimthisweek.com/wp-content/uploads/2023/08/kayutangan-heritage-di-kota-malang-800x450.jpg" class="rounded float-start mb-2" alt="destinasi wisata kajoetangan" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Kampoeng Heritage Kajoetangan</p>
+              <p class="desc">Kampung Kayutangan menjadi sebuah destinasi wisata ditengah Kota Malang dengan mengusung konsep “heritage”. Kampung yang banyak berdiri rumah-rumah lama dan masih terawat kemudian di”sulap” menjadi spot/tempat jujugan wisatawan.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/CGsdBd5WzTZhbr7G7" target="_blank">Jl. Jend Basuki Rachmad Jl. Jenderal Bauki Rahmat Gg. 4, Kauman, Kec. Klojen, Kota Malang</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 col-sm-10 gambarDestinasiWisata">
+              <a href="halaman-selanjutnya.html">
+                <img src="https://i.pinimg.com/564x/fa/4b/50/fa4b503df86328f18d8663f6b19479af.jpg" class="rounded float-start mb-2" alt="destinasi wisata hawai waterpark" height="200px" width="300px">
+              </a>
+            </div>
+            <div class="col-xl-8 col-md-6 col-sm-10 border informasiDestinasiWisata">
+              <p class="judul mt-2">Hawai Waterpark</p>
+              <p class="desc">Hawai Waterpark memiliki berbagai macam wahana air dan wahana kering dengan sistem keamaan tinggi dan lifeguard bersertifikat Internasional. Beberapa wahana yang dikenal luas di masyarakat antara lain Kolam Ombak Tsunami dengan ombak tertinggi di Indonesia, Jet Coaster Water Slide dengan tower tertinggi di Indonesia, serta kolam arus dengan 8 tema yang berbeda.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              <a class="peta" href="https://maps.app.goo.gl/M45ZcvmVpA9W4AWt7" target="_blank">Jl. Graha Kencana Utara V, Karanglo, Banjararum, Kec. Singosari, Kabupaten Malang</a>
+            </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row mb-4 justify-content-center">
+            <div class="col-xl-6 col-md-8 col-sm-8 textDestinasiWisata ">
+              <p class="closingDestinasiWisata">Hmmm, mau mau kemana dulu nih sobat Xplore?</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="PageThree" style="height: auto" id="kuliner">
+          <div class="wisata">
+          <h3>ANEKA KULINER HITS DI MALANG</h3>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://i.pinimg.com/564x/91/6d/de/916ddefc6db663da19f042ab40dae30d.jpg" class="rounded float-start mb-2" alt="kuliner bakso malang" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Bakso President</p>
+            <p class="desc">Bakso President, Malang memiliki ciri khas sensasi getaran akan lewatnya kereta api yang menambah nuansa makan menjadi berkesan. Sajian spesial yang menggoda lidah membuat selera pada kenikmatan bakso kian memuncak. Menu yang disajikan juga berbgai macam, mulai dari aneka jenis bakso, siomay, tahu, hingga gorengan.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/PiMa6hvJKuWnJHdW6" target="_blank">Jl. Batanghari No. 5, Rampal Celaket, Klojen, Kota Malang</a>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-12 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://i.pinimg.com/564x/c9/bc/db/c9bcdbb0c3445813ad6026635e15da25.jpg" class="rounded float-start mb-2" alt="kuliner bakso bakar" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-12 border informasiKuliner">
+            <p class="judul mt-2">Bakso Bakar Pak Man</p>
+            <p class="desc">Bumbu bakso bakar yang bisa dipesan dengan tingkat kepedasan sesuai dengan selera pelanggannya. Perpaduan bakso yang kering di luar dan halus di dalamnya dengan bumbu yang manis pedas banyak dipilih oleh masyarakat Malang dan sekitarnya sebagai camilan saat waktu senggang. Bakso Bakar Pak Man juga menyediakan bakso kuah.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/53bAqRNVJM4Jesqh6" target="_blank">Jl. Diponegoro No.19, Klojen, Kec. Klojen, Kota Malang</a>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://img-global.cpcdn.com/recipes/fc8efb60b8a37041/751x532cq70/tahu-telur-khas-malang-foto-resep-utama.jpg" class="rounded float-start mb-2" alt="kuliner tahu telor" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Tahu Telor Pak Suroto</p>
+            <p class="desc">Satu piring kuliner tahu telur berisi tahu putih dipotong kotak-kotak, kemudian dicampur dengan telur kocok, kecambah, selada, taburan seledri, taburan bawang goreng, lontong, serta sambal kacang yang sudah dicampur dengan bumbu spesial.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/715yCM3umFXedVEv9" target="_blank">Jl. Terusan Ijen No.857, Bareng, Kec. Klojen, Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://i.pinimg.com/564x/23/d1/a3/23d1a301acf559a9abf52c88545a5114.jpg" class="rounded float-start mb-2" alt="kuliner rawon" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Rawon Rampal</p>
+            <p class="desc">Rawon Rampal berdiri sejak tahun 1957 dan tetap eksis hingga kini. Tempat makan ini menawakan masakan khas Jawa Timur. Mulai dari nasi soto, nasi pecel, nasi campur ayam, nasi campur daging, dan nasi campur jeroan. Namun dari sekian banyak menu yang ada, yang jadi andalan di Rawon Rampal tentu adalah rawonnya.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/FTkrNNT71BK6kiaK9" target="_blank">Jl. Panglima Sudirman No.71A, Klojen, Kec. Blimbing, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://i.pinimg.com/564x/8b/e8/e7/8be8e7538c732dd39cf10a5fe707ad3b.jpg" class="rounded float-start mb-2" alt="kuliner cui mie" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Hot Cue Mie</p>
+            <p class="desc">Cwie mie disajikan di dalam mangkok pangsit goreng. Topping cwie mie di sini juga beragam. Diantaranya ada jamur, daging, ayam, udang, dan ikan kakap. Selain cwie mie, di sini juga tersedia song mie, yamien, kwetiau, dan zuper duper yamie atau mie porsi besar.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/z5zpW4PjiDkYjvww7" target="_blank">Jl. Kawi Atas No.43 Ruko Blok A-B, Bareng, Kec. Klojen, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://i.pinimg.com/564x/69/82/95/6982956a24d829a8dc304eef206d1b55.jpg" class="rounded float-start mb-2" alt="kuliner rujak cingur" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Rujak Cingur Mentawai</p>
+            <p class="desc">Meski sudah ada sejak tahun 1969, namun rujak cingur dan es kolak Mentawai masih populer di Kota Malang. Seporsinya dilengkapi dengan cingur sapi yang empuk, beserta potongan buah mangga muda, bengkoang, tempe, tahu, sayuran, dan dicampur dengan bumbu petis yang cenderung manis serta gurih ini.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/RJQEAsJDMYfbsM9ZA" target="_blank">Jl. Mentawai No.56, Kasin, Kec. Klojen, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://amazingmalang.id/wp-content/uploads/2019/05/resep-ceker-khas-malang-1.jpg" class="rounded float-start mb-2" alt="kuliner ceker setan" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Ceker Setan</p>
+            <p class="desc">Ceker Setan menawarkan hidangan ceker dan sayap ayam pedas dengan aroma rempah yang menggoda, disajikan dalam suasana santai. Menu utamanya terdiri dari ceker dan sayap ayam yang dibaluri bumbu yang sangat pedas dan lezat disajikan dengan nasi panas menambah cita rasa.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/xr4SdcMKoZwSid4J7" target="_blank">Jl. Jakarta No.4 B, Penanggungan, Kec. Klojen, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://i.pinimg.com/564x/d6/e4/96/d6e496cd405b857867c64af370316802.jpg" class="rounded float-start mb-2" alt="kuliner malang strudel" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Malang Strudel Oleh-oleh Malang</p>
+            <p class="desc">Strudel adalah kue berlapis, yang terbuat dari pastry dan di isi berbagai buah-buahan. Kue ini adalah makanan populer di jaman Hasburg Empire (1278 hingga 1780) di Austria. Di Eropa, Strudel yang terkenal dan favorit adalah yang berisi buah apel.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/vKPsGHCMsBCjeeL87" target="_blank">Jl. Soekarno - Hatta, Mojolangu, Kec. Lowokwaru, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/142/2023/08/25/Intip-kelezatan-nasi-genjes-Warung-Mekar-Jaya-Malang-di-Sini-2022957703.jpg" class="rounded float-start mb-2" alt="kuliner tahu telor" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Warung Mekar Jaya</p>
+            <p class="desc">Dengan motto "Melayani Lambungmu Sepenuh Hati" warung ini menghadirkan beragam menu dengan harga yang sangat terjangkau, dari harga empat ribu rupiah tanpa nasi sampai Rp15 ribu dengan nasi. Untuk minuman, dimulai dengan harga lima ribuan saja. WMJ merupakan pelopor nasi genjes no 1 di Indonesia.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/hzsXEgbcbaPH9yp59" target="_blank">Jl. Soekarno Hatta No.24, Jatimulyo, Kec. Lowokwaru, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4">
+          <div class="col-xl-3 col-md-4 col-sm-10 gambarKuliner">
+            <a href="halaman-selanjutnya.html">
+              <img src="https://awsimages.detik.net.id/community/media/visual/2021/04/16/es-campur-di-malang-4.jpeg?w=1280" class="rounded float-start mb-2" alt="kuliner tahu telor" height="200px" width="300px">
+            </a>
+          </div>
+          <div class="col-xl-8 col-md-6 col-sm-10 border informasiKuliner">
+            <p class="judul mt-2">Es Tawon Kidul Dalem</p>
+            <p class="desc">Es Tawon Kidul Dalem merupakan salah satu tempat kuliner legendaris yang ada di Malang. Tempat ini sudah ada sejak tahun 1955. Tempat ini menyediakan es campur legendaris khas Malang. Sudah 65 tahun tempat ini tetap bertahan menyajikan ragam es campur yang segar dengan racikan yang sama.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <a class="peta" href="https://maps.app.goo.gl/VY3re7FfE8LpgFCSA" target="_blank">Jl. Zainul Arifin No.15, Sukoharjo, Kec. Klojen, Kota Malang</a>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-4 justify-content-center">
+          <div class="col-xl-6 col-md-8 col-sm-8 textKuliner">
+            <p class="closingDestinasiWisata">Mau cobain makanan apa dulu sobat Xplore?</p>
+          </div>
+          </div>
+        </div>
+    
+    <!-- page event -->
+        <div class="row justify-content-md-center">
+          <div class="col-xl-12 col-md-12 col-sm-12" id="event">
+            event di malang 2023
+          </div>
+    <!-- <section card> -->
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card">
+                            <img class="card-img-top" src="Asset/GKM-Eternity.webp" alt="Card image cap 1">
+                            <div class="card-body">
+                        <h5 class="card-title">GKM Eternity</h5>
+                        <p class="card-text">1 Desember 2023</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="Asset/Tur-Perdanaku-Idgitaf-Mengudara-Malang.webp" alt="Card image cap 2">
+                        <div class="card-body">
+                        <h5 class="card-title">Tur Perdanaku Idgitaf Mengudara</h5>
+                        <p class="card-text">1 Desember 2023</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="Asset/BHARATAYUDHA-2023.webp" alt="Card image cap 3">
+                        <div class="card-body">
+                        <h5 class="card-title">BHARATAYUDHA 2023</h5>
+                        <p class="card-text">3 Desember 2023</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+             
+              <div class="carousel-item">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img class="card-img-top" src="Asset/comefest.png" alt="Card image cap 1">
+                        <div class="card-body">
+                        <h5 class="card-title">COME FEST 2023</h5>
+                        <p class="card-text">10 OKTOBER 2023</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="Asset/australian.png" alt="Card image cap 2">
+                            <div class="card-body">
+                        <h5 class="card-title">AUSTRALIAN EDUCATION FAIR 2023</h5>
+                        <p class="card-text">10 OKTOBER 2023</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="Asset/mafest.png"Card image cap 3">
+                        <div class="card-body">
+                        <h5 class="card-title">MA FEST 2023 VOL #2 MUSIK, FASHION, dan KULINER</h5>
+                        <p class="card-text">10 OKTOBER 2023</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+
+    
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card">
+                                <img class="card-img-top" src="Asset/SPECTAMORPHOSIS-7.0.webp" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">SPECTAMORPHOSIS 7.0 – Discoria Party</h5>
+                            <p class="card-text">5 Desember 2023</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                                <img class="card-img-top" src="Asset/Sosialisasi-Penyadaran-Pemuda-Anti-Narkoba-War-On-Drugs.webp" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Sosialisasi Penyadaran Pemuda Anti Narkoba  “War On Drugs”</h5>
+                            <p class="card-text">7 Desember 2023</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                                <img class="card-img-top" src="Asset/JakCloth-2023-Year-End-Sale-Malang.webp" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">JakCloth 2023 Year End Sale Malang</h5>
+                            <p class="card-text">23-25 Desember 2023</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+        </div>              
+        
+
+    <div class="container-fluid">
+      <div class="row mb-4 justify-content-center">
+      <div class="col-xl-7 col-md-8 col-sm-8 textDestinasiWisata ">
+        <p class="closingDestinasi"> Jalan - jalan udah, kulineran udah, dateng ke event - event seru udah belum sobat Xplore?</p>
+      </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div>
+                        <img src="Asset/logo adis.png" alt="logo" width="80" height="91.95">
+                        <a href="#" class="brand ml-2">xploreMalang</a>
+                    </div>
+                    <ul class="media-icons">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-x-twitter icon-spacing" ></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f icon-spacing"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram icon-spacing"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube icon-spacing"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-tiktok icon-spacing" ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="row">
+                    <div class="search">
+                      <h4>Kunjungi situs Lainnya</h4>
+                        <form class="d-inline-flex">
+                            <input class="form-control" type="search" placeholder="Pilih situs">
+                            <!-- <i id="search" class="fas fa-search"></i> -->
+                        </form>
+                    </div>
+                    <p" id="cookie">Kebijakan Cookie | Kebijakan Privasi | Syarat dan Ketentuan | Hubungi Kami</p>
+                </div>
+                <div>
+                  <p class="situs">Situs ini merupakan situs resmi Kementerian Pariwisata dan Ekonomi Kreatif Kota Malang Semua isi yang tercantum di dalam situs ini bertujuan untuk memberikan informasi dan bukan sebagai tujuan komersial. Penjualan yang ditampilkan merupakan tanda kemitraan yang akan menghubungkan Anda kepada Mitra Kami.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
